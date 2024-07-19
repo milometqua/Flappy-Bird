@@ -9,6 +9,7 @@ public class PipeGenerate : MonoBehaviour
     private float countdown;
     public float timeDuration;
     public bool enableGeneratePipe;
+
     private void Awake()
     {
         countdown = 1f;
